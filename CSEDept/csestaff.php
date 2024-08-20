@@ -6,11 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <title>ABC College</title>
-    <link rel="stylesheet" href="agristaff.css">
+    <link rel="stylesheet" href="csestaff.css">
 </head>
 <body>
     <div class="menu_bar">
-        <h1 class="logo">Agriculture Engineering</h1>
+        <h1 class="logo">Computer Science Engineering</h1>
         <ul>
             <li><a href="cse.php">Dashboard</a></li>
         </ul>
