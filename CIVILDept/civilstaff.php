@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <title>ABC College</title>
-    <link rel="stylesheet" href="civilstudent.css">
+    <link rel="stylesheet" href="civilstaff.css">
 </head>
 <body>
     <div class="menu_bar">
@@ -16,14 +16,14 @@
         </ul>
     </div>
     <div style="margin: 20px">
-    <h1>List of Students</h1>
-    <a class="btn btn-primary" href="addcivilsutdentdent.php" role="button">Add Student</a>
+    <h1>List of Staff</h1>
+    <a class="btn btn-primary" href="addcivilstaff.php" role="button">Add Staff</a>
     <br>
     <table class="table" style="margin: 20px">
         <thead>
             <tr>
                 <th>No</th>
-                <th>Student_ID</th>
+                <th>Staff_ID</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>
@@ -43,7 +43,7 @@
                 die("Connection Failed: ".$conn->connect_error);
             }
 
-            $sql = "SELECT * FROM student";
+            $sql = "SELECT * FROM staff";
 
             $result = $conn->query($sql);
             if(!$result){
@@ -53,7 +53,7 @@
             while($row = $result->fetch_assoc()){
             echo "<tr>
                 <td>".$row["id"]."</td>
-                <td>".$row["student_id"]."</td>
+                <td>".$row["staff_id"]."</td>
                 <td>".$row["name"]."</td>
                 <td>".$row["email"]."</td>
                 <td>".$row["phone"]."</td>

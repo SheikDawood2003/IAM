@@ -30,6 +30,5 @@
             </div>
         </div>
     </div>
-<script src="home.js"></script>
 </body>
 </html>

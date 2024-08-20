@@ -68,6 +68,5 @@
         </tbody>
     </table>
     </div>
-<script src="iam.js"></script>
 </body>
 </html>

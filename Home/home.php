@@ -47,22 +47,22 @@ if($conn->connect_error){
                 <a href="./../AIDSDept/aids.php">Artificial Intelligence <br> and<br> Data Science</a>
             </div>
             <div class="card">
-                <a href="civil.php">Civil <br> Engineering</a>
+                <a href="./../CIVILDept/civil.php">Civil <br> Engineering</a>
             </div>
             <div class="card">
-                <a href="cse.php">Computer Science <br> Engineering</a>
+                <a href="./../CSEDept/cse.php">Computer Science <br> Engineering</a>
             </div>
             <div class="card">
-                <a href="ece.php">Electronics and <br> Communication Engineering</a>
+                <a href="./../ECEDept/ece.php">Electronics and <br> Communication Engineering</a>
             </div>
             <div class="card">
-                <a href="eee.php">Electrical and <br> Electronics Engineering</a>
+                <a href="./../EEEDept/eee.php">Electrical and <br> Electronics Engineering</a>
             </div>
             <div class="card">
-                <a href="it.php">Information <br> Technology</a>
+                <a href="./../ITDept/itdept.php">Information <br> Technology</a>
             </div>
             <div class="card">
-                <a href="mech.php">Mechanical <br> Engineering</a>
+                <a href="./../MECHDept/mech.php">Mechanical <br> Engineering</a>
             </div>
         </div>
     </div>

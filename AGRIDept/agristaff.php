@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <title>ABC College</title>
-    <link rel="stylesheet" href="agristudent.css">
+    <link rel="stylesheet" href="agristaff.css">
 </head>
 <body>
     <div class="menu_bar">
@@ -17,7 +17,7 @@
     </div>
     <div style="margin: 20px">
     <h1>List of Staff</h1>
-    <a class="btn btn-primary" href="addagrident.php" role="button">Add Staff</a>
+    <a class="btn btn-primary" href="addagristaff.php" role="button">Add Staff</a>
     <br>
     <table class="table" style="margin: 20px">
         <thead>
