@@ -6,13 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> IAM LogIn and SignUp paage </title>
-        <script type="text/JavaScript">
-            function preventBack() {
-                window.history.forward()
-            };
-            setTimeout("preventBack()",0);
-                window.onunload=function(){null;}
-        </script>
         <!-- CSS -->
         <link rel="stylesheet" href="login.css">
                 
@@ -34,11 +27,6 @@
                             <input type="password" id="password" name="password" placeholder="Password" class="password">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
-
-                        <div class="form-link">
-                            <a href="#" class="forgot-pass">Forgot password?</a>
-                        </div>
-
                         <div class="field button-field">
                             <button name="login">Login</button>
                         </div>
