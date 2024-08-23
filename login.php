@@ -18,7 +18,7 @@
         <div class="form login">
                 <div class="form-content">
                     <header>Login</header>
-                    <form method="post" action="register.php">
+                    <form method="post" action="register2.php">
                         <div class="field input-field">
                             <input type="text" id="username" name="username" placeholder="Username" class="input">
                         </div>
@@ -27,42 +27,33 @@
                             <input type="password" id="password" name="password" placeholder="Password" class="password">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
+                        <div class="field input-field">
+                            <select name="usertype" id="usertype">
+                                <option value="">Select User Type</option>
+                                <option value="admin">Admin</option>
+                                <option value="principal">Principal</option>
+                                <option value="hods">HOD</option>
+                                <option value="staff">Staff</option>
+                                <option value="student">Student</option>
+                            </select>
+                        </div>
+                        <div class="field input-field">
+                            <select name="usertype2" id="usertype2">
+                                <option value="">Select Department</option>
+                                <option value="agri">AGRI</option>
+                                <option value="aids">AIDS</option>
+                                <option value="civil">CIVIL</option>
+                                <option value="cse">CSE</option>
+                                <option value="ece">ECE</option>
+                                <option value="eee">EEE</option>
+                                <option value="it">IT</option>
+                                <option value="mech">MECH</option>
+                            </select>
+                        </div>
                         <div class="field button-field">
                             <button name="login">Login</button>
                         </div>
                     </form>
-
-                    <div class="form-link">
-                        <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
-                    </div>
-                </div>
-            </div>
-            <!-- Signup Form -->
-            <div class="form signup">
-                <div class="form-content" id="signup">
-                    <header>Signup</header>
-                    <form method="post" action="register.php">
-                        <div class="field input-field">
-                            <input type="text" id="username" name="username" placeholder="Username" class="input">
-                        </div>
-
-                        <div class="field input-field">
-                            <input type="email" id="email" name="email" placeholder="Email" class="input">
-                        </div>
-
-                        <div class="field input-field">
-                            <input type="password" id="password" name="password" placeholder="Create password" class="password">
-                            <i class='bx bx-hide eye-icon'></i>
-                        </div>
-
-                        <div class="field button-field">
-                            <button name="signUp">Signup</button>
-                        </div>
-                    </form>
-
-                    <div class="form-link">
-                        <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
-                    </div>
                 </div>
             </div>
         </section>
