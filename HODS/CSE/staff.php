@@ -27,6 +27,7 @@
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Address</th>
+                <th>Action</th>
             </tr>
         </thead>
         <?php
@@ -56,6 +57,10 @@
                 <td>".$row["email"]."</td>
                 <td>".$row["phone"]."</td>
                 <td>".$row["address"]."</td>
+                <td>
+                    <a class='btn btn-primary btn-sm' href='staffedit.php?id=".$row['id']."'>Edit</a>
+                    <a class='btn btn-danger btn-sm' href='staffdelete.php?id=".$row['id']."'>Delete</a>
+                </td>
             </tr>";
             }
             ?>

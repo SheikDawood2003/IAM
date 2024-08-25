@@ -126,7 +126,7 @@
     <h1>ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</h1>
     <div class="gallery">
         <div class="frame">
-            <a href="error.php">
+            <a href="hod.php">
                 <img src="./../../.images/image-1000x1000 (3).jpg" alt="Picture 1">
                 <div class="title">HEAD OF THE DEPARTMENT</div>
             </a>

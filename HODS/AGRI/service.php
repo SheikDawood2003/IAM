@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="./../../.css/responsive.css" rel="stylesheet" />
     <title>ABC COLLEGE OF ENGINEERING</title>
     <style>
         body {
@@ -84,9 +84,31 @@
             background: rgba(58, 233, 215, 0.825);
             text-align: center;
         }
+
+        /* Back Button Styles */
+        .back-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(58, 233, 215, 0.825);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: rgba(0, 150, 136, 0.825);
+        }
     </style>
 </head>
 <body>
+    <!-- Back Button -->
+    <a href="index.php" class="back-button">Back</a>
+
     <div class="gallery-container">
         <div class="gallery">
             <a href="agri.php" class="gallery-item">
