@@ -118,7 +118,7 @@
     </style>
 </head>
 <body>
-    <div class="menu_bar">
+<div class="menu_bar">
         <ul>
             <li><a href="service.php">Dashboard</a></li>
         </ul>
@@ -127,7 +127,7 @@
     
     <div class="gallery">
         <div class="frame">
-            <a href="hod.php">
+            <a href="error.php">
                 <img src="./../../.images/image-1000x1000 (3).jpg" alt="Picture 1">
                 <div class="title">HEAD OF THE DEPARTMENT</div>
             </a>

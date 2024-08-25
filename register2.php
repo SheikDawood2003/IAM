@@ -290,6 +290,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("ss", $username, $password);
     }
     }
+    elseif ($role == "principal") {
+        if ($role2 == "") {
+            $conn = new mysqli("localhost", "root", "", "principal");
+
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        $stmt = $conn->prepare("SELECT * FROM principaluser WHERE username = ? AND password = ?");
+        $stmt->bind_param("ss", $username, $password);
+        }
+    }
 
 
     // Execute the prepared statement
@@ -356,6 +368,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             elseif ($role2 == "mech"){
                 header("Location: Staff/MECH/index.php");
             }
+        }
+        elseif ($role == "hods") {
+            if ($role2 == "agri"){
+                header("Location: HODS/AGRI/index.php");
+            }
+            elseif ($role2 == "aids"){
+                header("Location: HODS/AIDS/index.php");
+            }
+            elseif ($role2 == "civil"){
+                header("Location: HODS/CIVIL/index.php");
+            }
+            elseif ($role2 == "cse"){
+                header("Location: HODS/CSE/index.php");
+            }
+            elseif ($role2 == "ece"){
+                header("Location: HODS/ECE/index.php");
+            }
+            elseif ($role2 == "eee"){
+                header("Location: HODS/EEE/index.php");
+            }
+            elseif ($role2 == "it"){
+                header("Location: HODS/IT/index.php");
+            }
+            elseif ($role2 == "mech"){
+                header("Location: HODS/MECH/index.php");
+            }
+        }
+        elseif ($role == "principal") {
+            if($role2 == ""){
+            header("Location: Principal/Home/home.php");
+        }
         }
     } 
     else {
