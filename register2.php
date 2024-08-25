@@ -397,8 +397,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         elseif ($role == "principal") {
             if($role2 == ""){
-            header("Location: Principal/Home/home.php");
-        }
+            header("Location: Principal/inex.php");
+            }
         }
     } 
     else {

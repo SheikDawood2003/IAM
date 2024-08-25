@@ -21,10 +21,10 @@ if($conn->connect_error){
 </head>
 <body>
     <div class="menu_bar">
-        <h1 class="logo">ABC College of <span>Engineering</span></h1>
+        <h1 class="logo">ABC College of <span>Engineering</span> And <span>Technology</span></h1>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Users</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="users.php">Users</a></li>
             <li><a href="./../../logout.php">Log Out</a></li>
         </ul>
     </div>
@@ -53,6 +53,9 @@ if($conn->connect_error){
             </div>
             <div class="card">
                 <a href="./../MECHDept/mech.php">Mechanical <br> Engineering</a>
+            </div>
+            <div class="card">
+                <a href="./../Principal/principal.php"><br>Principal</a>
             </div>
         </div>
     </div>

@@ -126,19 +126,19 @@
     <h1>CIVIL ENGINEERING</h1>
     <div class="gallery">
         <div class="frame">
-            <a href="hod.php" target="_blank">
+            <a href="hod.php">
                 <img src="./../../.images/image-1000x1000 (3).jpg" alt="Picture 1">
                 <div class="title">HEAD OF THE DEPARTMENT</div>
             </a>
         </div>
         <div class="frame">
-            <a href="staff.php" target="_blank">
+            <a href="staff.php">
                 <img src="./../../.images/image-1000x1000 (2).jpg" alt="Picture 2">
                 <div class="title">STAFFS</div>
             </a>
         </div>
         <div class="frame">
-            <a href="students.php" target="_blank">
+            <a href="student.php">
                 <img src="./../../.images/DeWatermark.ai_1724219828387.png" alt="Picture 3">
                 <div class="title">STUDENTS</div>
             </a>

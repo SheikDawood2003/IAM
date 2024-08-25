@@ -132,7 +132,7 @@
             </a>
         </div>
         <div class="frame">
-            <a href="error.php">
+            <a href="staff.php">
                 <img src="./../../.images/image-1000x1000 (2).jpg" alt="Picture 2">
                 <div class="title">STAFFS</div>
             </a>

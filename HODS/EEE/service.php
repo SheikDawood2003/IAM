@@ -123,7 +123,7 @@
                 <img src="./../../.images/man-s-hand-typing-laptop-wooden-desk (1).jpg" alt="Computer Science and Engineering">
                 <div class="title">COMPUTER SCIENCE AND ENGINEERING</div>
             </a>
-            <a href="eee..php" class="gallery-item">
+            <a href="eee.php" class="gallery-item">
                 <img src="./../../.images/motherboard-background (1).jpg" alt="Electrical and Electronic Engineering">
                 <div class="title">ELECTRICAL AND ELECTRONIC ENGINEERING</div>
             </a>
