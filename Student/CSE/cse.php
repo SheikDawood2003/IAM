@@ -97,9 +97,31 @@
             top: 0;
             left: 0;
         }
+        .menu_bar ul{
+            list-style: none;
+            display: flex;
+        }
+        .menu_bar ul li{
+            padding: 10px 30px;
+            position: relative;
+        }
+        .menu_bar ul li a{
+            color: #e9e9e9;
+            text-decoration: none;
+            font-size: 20px;
+            transition: all 0.3s;
+        }
+        .menu_bar ul li a:hover{
+            color: #007bff;
+        }
     </style>
 </head>
 <body>
+<div class="menu_bar">
+        <ul>
+            <li><a href="service.php">Dashboard</a></li>
+        </ul>
+    </div>
     <h1>COMPUTER SCIENCE AND ENGINEERING</h1>
     <div class="gallery">
         <div class="frame">

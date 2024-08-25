@@ -97,14 +97,37 @@
             top: 0;
             left: 0;
         }
+        .menu_bar ul{
+            list-style: none;
+            display: flex;
+        }
+        .menu_bar ul li{
+            padding: 10px 30px;
+            position: relative;
+        }
+        .menu_bar ul li a{
+            color: #e9e9e9;
+            text-decoration: none;
+            font-size: 20px;
+            transition: all 0.3s;
+        }
+        .menu_bar ul li a:hover{
+            color: #007bff;
+        }
+
     </style>
 </head>
 <body>
+    <div class="menu_bar">
+        <ul>
+            <li><a href="service.php">Dashboard</a></li>
+        </ul>
+    </div>
     <h1>AGRICULTURAL ENGINEERING</h1>
     
     <div class="gallery">
         <div class="frame">
-            <a href="error.php">
+            <a href="hod.php">
                 <img src="./../../.images/image-1000x1000 (3).jpg" alt="Picture 1">
                 <div class="title">HEAD OF THE DEPARTMENT</div>
             </a>

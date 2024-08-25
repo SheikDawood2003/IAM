@@ -10,30 +10,31 @@
 </head>
 <body>
     <div class="menu_bar">
-        <h1 class="logo">AGRICULTURAL ENGINEERING</h1>
+        <h1 class="logo">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</h1>
         <ul>
-            <li><a href="agri.php">Dashboard</a></li>
+            <li><a href="aids.php">Dashboard</a></li>
         </ul>
     </div>
     <div style="margin: 20px">
-    <h1>List of Staffs</h1>
+    <h1>List of HODs</h1>
     <br>
     <table class="table" style="margin: 20px">
         <thead>
             <tr>
                 <th>No</th>
-                <th>Staff_ID</th>
+                <th>HOD_ID</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Address</th>
+                <th>Year</th>
             </tr>
         </thead>
         <?php
             $severname="localhost";
             $username="root";
             $password="";
-            $database="agridept";
+            $database="aidsdept";
 
             $conn =new mysqli($severname, $username, $password, $database);
 
