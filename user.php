@@ -47,7 +47,7 @@
                 die("Connection Failed: ".$conn->connect_error);
             }
 
-            $sql = "SELECT * FROM iamuser";
+            $sql = "SELECT * FROM users";
 
             $result = $conn->query($sql);
             if(!$result){
@@ -61,7 +61,7 @@
                 <td>".$row["email"]."</td>
                 <td>".$row["password"]."</td>
                 <td>
-                    <a class='btn btn-primary btn-sm' href='edit.php?id=".$row['id']."'>Edit</a>
+                    <a class='btn btn-primary btn-sm' href='./edit.php?id=".$row['id']."'>Edit</a>
                     <a class='btn btn-danger btn-sm' href='delete.php?id=".$row['id']."'>Delete</a>
                 </td>
             </tr>";

@@ -19,15 +19,15 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="./../../.css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway:400,600|Righteous&display=swap"
     rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="./../../.css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="./../../.css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -65,10 +65,10 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">Services</a>
+                <a href="index.php">Home</a>
+                <a href="service.php">Services</a>
                 
-                <a href="contact.html">Contact Us</a>
+                <a href="contact.php">Contact Us</a>
               </div>
             </div>
           </div>
@@ -288,24 +288,24 @@
       <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
         <div class="social-box">
           <a href="">
-            <img src="images/fb.png" alt="" />
+            <img src="./../../.images/fb.png" alt="" />
           </a>
 
           <a href="">
-            <img src="images/twitter.png" alt="" />
+            <img src="./../../.images/twitter.png" alt="" />
           </a>
           <a href="">
-            <img src="images/linkedin1.png" alt="" />
+            <img src="./../../.images/linkedin1.png" alt="" />
           </a>
           <a href="">
-            <img src="images/instagram1.png" alt="" />
+            <img src="./../../.images/instagram1.png" alt="" />
           </a>
         </div>
         <div class="form_container mt-5">
           <form action="">
             <label for="subscribeMail">
              Anti Ragging Campus
-             <p>Contact;18001805522</p>
+             <p>Contact:18001805522</p>
             </label>
             
               
@@ -327,8 +327,8 @@
   </section>
   <!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="./../../.js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./../../.js/bootstrap.js"></script>
 
   <script>
     function openNav() {

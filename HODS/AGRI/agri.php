@@ -105,19 +105,19 @@
     <div class="gallery">
         <div class="frame">
             <a href="https://example.com/link1" target="_blank">
-                <img src="./../../Student/images/image-1000x1000 (3).jpg" alt="Picture 1">
+                <img src="./../../.images/image-1000x1000 (3).jpg" alt="Picture 1">
                 <div class="title">HEAD OF THE DEPARTMENT</div>
             </a>
         </div>
         <div class="frame">
             <a href="https://example.com/link2" target="_blank">
-                <img src="./../../Student/images/image-1000x1000 (2).jpg" alt="Picture 2">
+                <img src="./../../.images/image-1000x1000 (2).jpg" alt="Picture 2">
                 <div class="title">STAFFS</div>
             </a>
         </div>
         <div class="frame">
             <a href="https://example.com/link3" target="_blank">
-                <img src="./../../Student/images/DeWatermark.ai_1724219828387.png" alt="Picture 3">
+                <img src="./../../.images/DeWatermark.ai_1724219828387.png" alt="Picture 3">
                 <div class="title">STUDENTS</div>
             </a>
         </div>

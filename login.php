@@ -20,7 +20,7 @@
                     <header>Login</header>
                     <form method="post" action="register2.php">
                         <div class="field input-field">
-                            <input type="text" id="username" name="username" placeholder="Username" class="input">
+                            <input type="text" id="username" name="username"  placeholder="Username" class="input">
                         </div>
 
                         <div class="field input-field">

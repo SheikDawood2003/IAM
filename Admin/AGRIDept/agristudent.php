@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <title>ABC College</title>
+    <title>ABC COLLEGE OF ENGINEERING</title>
     <link rel="stylesheet" href="agristudent.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
     </div>
     <div style="margin: 20px">
     <h1>List of Students</h1>
-    <a class="btn btn-primary" href="addagrisutdentdent.php" role="button">Add Student</a>
+    <a class="btn btn-primary" href="addstudent.php" role="button">Add Student</a>
     <br>
     <table class="table" style="margin: 20px">
         <thead>
@@ -60,7 +60,7 @@
                 <td>".$row["address"]."</td>
                 <td>
                     <a class='btn btn-primary btn-sm' href='studentedit.php?id=".$row['id']."'>Edit</a>
-                    <a class='btn btn-danger btn-sm' href='delete.php?id=".$row['id']."'>Delete</a>
+                    <a class='btn btn-danger btn-sm' href='studentdelete.php?id=".$row['id']."'>Delete</a>
                 </td>
             </tr>";
             }

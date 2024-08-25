@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"] == "GET"){
     }
     $id = $_GET["id"];
 
-    $sql = "SELECT * FROM iamuser WHERE id=$id";
+    $sql = "SELECT * FROM users WHERE id=$id";
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
     if(!$row){

@@ -14,7 +14,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>IAM</title>
+    <title>ABC COLLEGE OF ENGINEERING</title>
 
     <!-- slider stylesheet -->
     <link
@@ -24,7 +24,7 @@
     />
 
     <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="./../../Student/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./../../.css/bootstrap.css" />
 
     <!-- fonts style -->
     <link
@@ -32,9 +32,9 @@
       rel="stylesheet"
     />
     <!-- Custom styles for this template -->
-    <link href="./../../Student/css/style.css" rel="stylesheet" />
+    <link href="./../../.css/style.css" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="./../../Student/css/responsive.css" rel="stylesheet" />
+    <link href="./../../.css/responsive.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -50,8 +50,7 @@
 
             <div class="navbar-collapse" id="">
               <div
-                class="d-none d-lg-flex ml-auto flex-column flex-lg-row align-items-center mt-3"
-              >
+                class="d-none d-lg-flex ml-auto flex-column flex-lg-row align-items-center mt-3">
                 <form class="form-inline mb-3 mb-lg-0 ">
                   <button
                     class="btn  my-sm-0 nav_search-btn"
@@ -60,7 +59,7 @@
                 </form>
                 <ul class="navbar-nav  mr-5">
                   <li class="nav-item mr-5">
-                    <a class="nav-link" href="./service.html">
+                    <a class="nav-link" href="service.php">
                       <span></span>
                     </a>
                   </li>
@@ -76,9 +75,9 @@
               </div>
               <div id="myNav" class="overlay">
                 <div class="overlay-content">
-                  <a href="./index.html">Home</a>
-                <a href="./service.html">Services</a>
-                  <a href="./contact.html">Contact Us</a>
+                  <a href="index.php">Home</a>
+                <a href="service.php">Services</a>
+                  <a href="contact.php">Contact Us</a>
                <!--  <a href="contact.html">Permissions</a>. --> 
                 </div>
               </div>
@@ -113,7 +112,7 @@
                       </div>
                     </div>
                     <div class="slider_item-imgbox">
-                      <img src="./../../Student/images/Blog-banner-image-1 (1).jpg" alt="" />
+                      <img src="./../../.images/Blog-banner-image-1 (1).jpg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -134,7 +133,7 @@
                       </div>
                     </div>
                     <div class="slider_item-imgbox">
-                      <img src="./../../Student/images/Picsart_24-08-02_11-03-09-647.jpg" alt="" />
+                      <img src="./../../.images/Picsart_24-08-02_11-03-09-647.jpg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -157,7 +156,7 @@
                       </div>
                     </div>
                     <div class="slider_item-imgbox">
-                      <img src="./../../Student/images/facilities.jpg" alt="" />
+                      <img src="./../../.images/facilities.jpg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -200,7 +199,7 @@
             <div class="about-detail">
               <div class="about_img-container">
                 <div class="about_img-box">
-                  <img src="./../../Student/images/educ ation (1).jpg" alt="" />
+                  <img src="./../../.images/educ ation (1).jpg" alt="" />
                 </div>
               </div>
               <div class="card_detail-ox">
@@ -217,7 +216,7 @@
             <div class="about-detail">
               <div class="about_img-container">
                 <div class="about_img-box">
-                  <img src="./../../Student/images/bulding.jpg" alt="" />
+                  <img src="./../../.images/bulding.jpg" alt="" />
                 </div>
               </div>
               <div class="card_detail-ox">
@@ -234,7 +233,7 @@
             <div class="about-detail">
               <div class="about_img-container">
                 <div class="about_img-box">
-                  <img src="./../../Student/images/idea.jpg" alt="" />
+                  <img src="./../../.images/idea.jpg" alt="" />
                 </div>
               </div>
               <div class="card_detail-ox">
@@ -257,7 +256,7 @@
     <section class="who_section">
       <div class="container who_container">
         <div class="who_img-box">
-          <img src="./../../Student/images/back (1) (1).jpg" alt="" />
+          <img src="./../../.images/back (1) (1).jpg" alt="" />
         </div>
         <div class="who_deail-box">
           <h2>
@@ -291,7 +290,7 @@ We endeavor to impart futuristic technical education of the highest quality to t
           <div class="feature_card">
             <div class="feature_img-container">
               <div class="feature_img-box">
-                <img src="./../../Student/images/enviro (1) (1).jpg" alt="" />
+                <img src="./../../.images/enviro (1) (1).jpg" alt="" />
               </div>
             </div>
             <div class="feature_detail-box">
@@ -306,7 +305,7 @@ We endeavor to impart futuristic technical education of the highest quality to t
           <div class="feature_card">
             <div class="feature_img-container">
               <div class="feature_img-box">
-                <img src="./../../Student/images/place (1).jpg" alt="" />
+                <img src="./../../.images/place (1).jpg" alt="" />
               </div>
             </div>
             <div class="feature_detail-box">
@@ -321,7 +320,7 @@ We endeavor to impart futuristic technical education of the highest quality to t
           <div class="feature_card">
             <div class="feature_img-container">
               <div class="feature_img-box">
-                <img src="./../../Student/images/group-people-working-out-business-plan-office.jpg" alt="" />
+                <img src="./../../.images/group-people-working-out-business-plan-office.jpg" alt="" />
               </div>
             </div>
             <div class="feature_detail-box">
@@ -336,7 +335,7 @@ We endeavor to impart futuristic technical education of the highest quality to t
           <div class="feature_card">
             <div class="feature_img-container">
               <div class="feature_img-box">
-                <img src="./../../Studnet/images/admission.jpg" alt="" />
+                <img src="./../../.images/admission.jpg" alt="" />
               </div>
             </div>
             <div class="feature_detail-box">
@@ -556,17 +555,17 @@ Our college offers a comprehensive and streamlined admissions process designed t
         >
           <div class="social-box">
             <a href="">
-              <img src="./../../Student/images/fb.png" alt="" />
+              <img src="./../../.images/fb.png" alt="" />
             </a>
 
             <a href="">
-              <img src="./../../Student/images/twitter.png" alt="" />
+              <img src="./../../.images/twitter.png" alt="" />
             </a>
             <a href="">
-              <img src="./../../Student/images/linkedin1.png" alt="" />
+              <img src="./../../.images/linkedin1.png" alt="" />
             </a>
             <a href="">
-              <img src="./../../Student/images/instagram1.png" alt="" />
+              <img src="./../../.images/instagram1.png" alt="" />
             </a>
           </div>
           <div class="form_container mt-5">
@@ -599,8 +598,8 @@ Our college offers a comprehensive and streamlined admissions process designed t
     </section>
     <!-- footer section -->
 
-    <script type="text/javascript" src="./../../Student/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="./../../Student/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./../../.js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./../../.js/bootstrap.js"></script>
 
     <script>
       function openNav() {

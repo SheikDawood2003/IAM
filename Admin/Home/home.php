@@ -16,7 +16,7 @@ if($conn->connect_error){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC College</title>
+    <title>ABC COLLEGE OF ENGINEERING</title>
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
@@ -25,7 +25,7 @@ if($conn->connect_error){
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Users</a></li>
-            <li><a href="./../logout.php">Log Out</a></li>
+            <li><a href="./../../logout.php">Log Out</a></li>
         </ul>
     </div>
     <div class="dashboard">

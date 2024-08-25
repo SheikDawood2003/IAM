@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <title>ABC College</title>
+    <title>ABC COLLEGE OF ENGINEERING</title>
     <link rel="stylesheet" href="civilstaff.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
     </div>
     <div style="margin: 20px">
     <h1>List of Staff</h1>
-    <a class="btn btn-primary" href="addcivilstaff.php" role="button">Add Staff</a>
+    <a class="btn btn-primary" href="addstaff.php" role="button">Add Staff</a>
     <br>
     <table class="table" style="margin: 20px">
         <thead>
@@ -59,8 +59,8 @@
                 <td>".$row["phone"]."</td>
                 <td>".$row["address"]."</td>
                 <td>
-                    <a class='btn btn-primary btn-sm' href='edit.php?id=".$row['id']."'>Edit</a>
-                    <a class='btn btn-danger btn-sm' href='delete.php?id=".$row['id']."'>Delete</a>
+                    <a class='btn btn-primary btn-sm' href='staffedit.php?id=".$row['id']."'>Edit</a>
+                    <a class='btn btn-danger btn-sm' href='staffdelete.php?id=".$row['id']."'>Delete</a>
                 </td>
             </tr>";
             }

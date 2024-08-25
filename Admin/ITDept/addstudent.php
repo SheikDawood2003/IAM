@@ -3,43 +3,51 @@
 $host="localhost";
 $user="root";
 $pass="";
-$db="aidsdept";
+$db="itdept";
 $conn=new mysqli($host,$user,$pass,$db);
 if($conn->connect_error){
     echo "Failed to connect DB".$conn->connect_error;
 }
-$username="";
+
+$student_id="";
+$name="";
 $email="";
-$password="";
+$phone="";
+$address="";
 
 $errorMessage="";
 $successMessage="";
 
 if($_SERVER['REQUEST_METHOD']=='POST'){
-    $username = $_POST['username'];
+    $student_id = $_POST['student_id'];
+    $name = $_POST['name'];
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
 
     do{
-        if(empty($username) || empty($email) || empty($password)){
+        if(empty($student_id) || empty($name) || empty($email) || empty($phone) || empty($address)){
             $errorMessage = "All the fields are required";
             break;
         }
 
-        $sql = "INSERT INTO iamuser (username, email, password) VALUES ('$username', '$email', '$password')";
+        $sql = "INSERT INTO student (student_id, name, email, phone, address) VALUES ('$student_id', '$name', '$email', '$phone', '$address')";
         $result = $conn->query($sql);
-
         if(!$result){
             $errorMessage = "Invalid query: ".$conn->error;
             break;
         }
-        $username="";
+
+
+        $student_id="";
+        $name="";
         $email="";
-        $password="";
+        $phone="";
+        $address="";
 
-        $successMessage="User added successfully";
+        $successMessage="Student added successfully";
 
-        header("location:user.php");
+        header("location:itdeptstudent.php");
         exit;
     }while(false);
 }
@@ -51,12 +59,12 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Add User</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>ABC COLLEGE OF ENGINEERING</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container my-5">
-        <h1>Add User</h1>
+        <h1>Add Student</h1>
 
         <?php
         if(!empty($errorMessage)){
@@ -70,9 +78,15 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         ?>
         <form method="post">
             <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Student_ID</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="student_id" value="<?php echo $student_id; ?>">
+                </div>
+            </div>
+            <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Name</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" name="username" value="<?php echo $username; ?>">
+                    <input type="text" class="form-control" name="name" value="<?php echo $name; ?>">
                 </div>
             </div>
             <div class="row mb-3">
@@ -82,11 +96,18 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                 </div>
             </div>
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Password</label>
+                <label class="col-sm-3 col-form-label">Phone</label>
                 <div class="col-sm-6">
-                    <input type="password" class="form-control" name="password" value="<?php echo $password; ?>">
+                    <input type="text" class="form-control" name="phone" value="<?php echo $phone; ?>">
                 </div>
             </div>
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Address</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="address" value="<?php echo $address; ?>">
+                </div>
+            </div>
+            
 
             <?php
             if(!empty($successMessage)){
@@ -108,7 +129,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
                 <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="user.php" role="button">Cancel</a>
+                    <a class="btn btn-outline-primary" href="itdeptstudent.php" role="button">Cancel</a>
                 </div>
             </div>
         </form>
