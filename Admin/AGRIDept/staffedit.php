@@ -83,7 +83,7 @@ if($_SERVER["REQUEST_METHOD"] == "GET"){
         <form method="post">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Student_ID</label>
+                <label class="col-sm-3 col-form-label">Staff_ID</label>
                 <div class="col-sm-6">
                     <input type="text" class="form-control" name="staff_id" value="<?php echo $staff_id; ?>">
                 </div>

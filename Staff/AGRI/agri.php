@@ -144,6 +144,12 @@
                 <div class="title">STUDENTS</div>
             </a>
         </div>
+        <div class="frame">
+            <a href="books.php">
+                <img src="./../../.images/books.jpg" alt="Picture 3">
+                <div class="title">BOOKS</div>
+            </a>
+        </div>
     </div>
 </body>
 </html>

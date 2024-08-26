@@ -18,7 +18,7 @@
         <div class="form login">
                 <div class="form-content">
                     <header>Login</header>
-                    <form method="post" action="register2.php">
+                    <form method="post" action="register.php">
                         <div class="field input-field">
                             <input type="text" id="username" name="username"  placeholder="Username" class="input">
                         </div>

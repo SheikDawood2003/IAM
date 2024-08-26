@@ -31,16 +31,19 @@ if($conn->connect_error){
     <div class="dashboard">
         <div class="card-container">
             <div class="card">
-                <a href="./../AGRIDept/agri.php"><br>Principal</a>
+                <a href="Principal/principal.php"><br>Principal</a>
             </div>
             <div class="card">
-                <a href="./../AIDSDept/aids.php"><br>HOD</a>
+                <a href="hoddept.php"><br>HOD</a>
             </div>
             <div class="card">
-                <a href="./../CIVILDept/civil.php"><br>Staff</a>
+                <a href="staffdept.php"><br>Staff</a>
             </div>
             <div class="card">
-                <a href="./../CSEDept/cse.php"><br>Student</a>
+                <a href="studentdept.php"><br>Student</a>
+            </div>
+            <div class="card">
+                <a href="admin.php"><br>Admin</a>
             </div>
         </div>
     </div>

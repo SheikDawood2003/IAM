@@ -76,7 +76,7 @@
               <div id="myNav" class="overlay">
                 <div class="overlay-content">
                   <a href="index.php">Home</a>
-                <a href="service.php">Services</a>
+                <a href="service.php">Departments</a>
                   <a href="contact.php">Contact Us</a>
                <!--  <a href="contact.html">Permissions</a>. --> 
                 </div>
