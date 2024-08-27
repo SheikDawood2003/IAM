@@ -35,6 +35,24 @@
     <link href="./../../.css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="./../../.css/responsive.css" rel="stylesheet" />
+    <style>
+    .logout-btn {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .logout-btn a{
+      text-decoration: none;
+      color: white;
+    }
+  </style>
   </head>
 
   <body>
@@ -43,6 +61,7 @@
       <header class="header_section">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
+          <button class="logout-btn"><a href="./../../logout.php">Log Out</a></button>
             <a class="navbar-brand" href="index.html">
             
              
